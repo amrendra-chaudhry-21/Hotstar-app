@@ -1,0 +1,22 @@
+.selective{
+    width:95%;
+    margin:10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selective > img {
+    max-height: 300px;
+    width:250px;
+    object-fit: fill;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 5px 9px rgb(0 0 0 / 75%);
+    transition: transform 0.45s;
+}
+
+.selective > img:hover{
+    transform: scale(1.10);
+}

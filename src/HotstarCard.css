@@ -1,0 +1,40 @@
+.hotstarcard {
+  margin-left: 10px;
+}
+
+.hotstarcard > h3 {
+  color: #cfd0d3;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.hotstarcard__image {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.hotstarcard__image::-webkit-scrollbar {
+  display: none;
+}
+.hotstarcard__image > img {
+  max-height: 250px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.45s;
+}
+
+.hotstarcard__image > img:hover {
+  transform: scale(1.1);
+}
+.hotstarcard__image > .hotstarcard__smallimage {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  transition: transform 0.45s;
+  margin-right: 10px;
+}
